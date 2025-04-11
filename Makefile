@@ -3,6 +3,10 @@
 
 .PHONY: help run build up down clean transcribe
 
+# 現在のユーザーIDとグループIDを取得
+export UID=$(shell id -u)
+export GID=$(shell id -g)
+
 # デフォルトのターゲット
 help:
 	@echo "使用可能なコマンド:"
