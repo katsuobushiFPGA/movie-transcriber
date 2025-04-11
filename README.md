@@ -1,4 +1,4 @@
-# Whisper-from-movie
+# Movie-transcriber
 
 動画ファイルから音声を抽出し、OpenAIのWhisperモデルを使用して文字起こしと字幕付き動画生成を行うツールです。
 
@@ -19,7 +19,7 @@
 1. リポジトリをクローン
 ```
 git clone [リポジトリURL]
-cd whisper-from-movie
+cd movie-transcriber
 ```
 
 2. Dockerイメージをビルド
